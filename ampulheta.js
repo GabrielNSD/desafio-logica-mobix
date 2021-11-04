@@ -39,8 +39,6 @@ const emptyLine = (i, n) => {
 };
 
 const ampulhetaNoTempo = (total) => {
-  //total = n
-
   const states = [];
 
   for (let j = 0; j < total - 3; j++) {
@@ -66,12 +64,10 @@ const ampulhetaNoTempo = (total) => {
   for (let t = 0; t < (total - 2) / 2 - 1; t++) {
     states[t] = false;
     states[total - 3 - t] = true;
-    //console.log(t);
 
     console.log("Tempo: ", t, "\n");
     console.log("#".repeat(total));
     states.map((value, index) => {
-      //console.log(index);
       if (value === true) {
         console.log(fullLine(index + 1, total));
       } else {
@@ -83,8 +79,6 @@ const ampulhetaNoTempo = (total) => {
     console.log("\n");
   }
 };
-
-//ampulhetaNoTempo(n);
 
 module.exports = {
   inputing: inputing,
