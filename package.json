@@ -1,0 +1,16 @@
+{
+  "name": "ampulheta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ampulheta.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "initial": "node initial.js",
+    "extra": "node extra.js"
+  },
+  "author": "Gabriel Dantas",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
